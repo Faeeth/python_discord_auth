@@ -8,3 +8,6 @@ Set a **Redirect URL** and catch **CLIENT ID**   & **CLIENT SECRET**, see below.
 Replace the 3 variables in the app code and templates/discord_login.html
 
 Run it & test, enjoy !
+
+## Demo
+![DEMO](https://github.com/Faeeth/python_discord_auth/blob/main/demo.gif)
