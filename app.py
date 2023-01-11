@@ -34,7 +34,7 @@ def process_auth():
         r = requests.post(url="https://discordapp.com/api/oauth2/token",data=data, headers=headers)
         result = r.json()
         if "access_token" in result:
-            print("access_token",result["access_token"],sep="-->")
+            #print("access_token",result["access_token"],sep="-->")
             headers = {
                 "Authorization": f"Bearer {result['access_token']}",
                 "Content-Type" : "application/x-www-form-urlencoded"
